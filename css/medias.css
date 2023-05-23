@@ -1,0 +1,86 @@
+@media (max-width: 1200px) {
+	html {
+	  font-size:15px;
+	}
+}
+ @media (max-width: 992px) {
+	html {
+	  font-size:14px;
+	}
+}
+ @media (max-width: 768px) {
+	html {
+	  font-size:12px;
+	} 
+}
+@media(max-width: 900px) {
+	.cook-content {
+		padding-bottom: 180px;
+		justify-content: center;
+		display: grid;
+		gap: 75px;
+		grid-template-columns: repeat(1, 260px);
+		grid-template-rows: repeat(3, 290px);
+		grid-auto-rows: 380px;
+		grid-template-areas:
+			"eats1"
+			"eats2"
+			"eats3"
+		;
+
+	}
+}
+@media(max-width: 519px) {
+	.block_first h1{
+		padding-top: 2rem;
+	}
+	.block_first{
+		padding-bottom: 2rem;
+		text-align: center;
+		padding: 5rem;
+	}
+	.bttn{
+		padding-bottom: 5rem;
+	}
+}
+@media(max-width: 471px) {
+	.block_first{
+		padding-bottom: 2rem;
+		text-align: center;
+		padding: 1rem;
+	}
+}
+/* Галерея блюд */
+@media (max-width: 1200px) {
+	.cards-grid {
+		grid-template-columns: repeat(2, 260px);
+		grid-template-rows: repeat(4, 290px);
+		grid-template-areas:
+			"widel1 widel1"
+			"product1 product2"
+			"wide2 wide2"
+			"product3 product4"
+		;
+
+
+	}
+}
+
+@media (max-width: 409px) {
+	.cards-grid {
+		width: 100%;
+
+		grid-template-columns: 1fr;
+		grid-template-areas:
+			"widel1"
+			"product1"
+			"product2"
+			"wide2"
+			"product3"
+			"product4";
+
+	}
+
+}
+
+/* Конец Галерея блюд */
