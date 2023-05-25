@@ -1,0 +1,164 @@
+html{
+	font-size: 16px;
+}
+/* Шапка */
+.header_salad{
+	top: -100px;
+	left: 0;
+	width: 100%;
+	z-index: 10;
+	transition: all .2s ease;
+}
+.header_salad.fixed{
+	position: fixed;
+	transform: translateY(100px);
+}
+.nav-item{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
+/* Конец шапки */
+/* Загаловок */
+	.block_first{
+		text-align: center;
+		padding: 7rem;
+	}
+	.block_first h1{
+		font-family: 'Open Sans', sans-serif;
+		font-size: 3rem;
+		font-weight: 400;
+		color: #D67E35;
+		padding-bottom: 2rem;
+	}
+	.block_first span{
+		color: white;
+	}
+/* Конец Заголовка */
+
+/* Наща история */
+.block_history{
+	padding-top: 3rem;
+}
+.history-info h2 span{
+	color: #D67E35;
+}
+.history-info h2{
+	font-size: 3rem;
+}
+.history-info{
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+.history-desc{
+	color: #656363;
+	font-size: 1rem;
+}
+.history-numder{
+	display: flex;
+}
+.number-item{
+	margin-left: 1.8rem;
+	margin-right: 2.75rem;
+	font-size: 2.5rem;
+	color: #D67E34;
+}
+.number-item span{
+	display: block;
+	font-size: 1rem;
+	color: #000;
+}
+/* Конец нашей  истории */
+
+/* Наше меню */
+.block_menu h2{
+	padding-top: 3rem;
+	color:#fff;
+	font-family: 'Open Sans', sans-serif;
+	padding-bottom: 3rem;
+	font-weight: 400;
+   font-size: 3.3rem;
+	text-align: center;
+}
+.card-text {
+	font-weight: 400;
+	font-size: 1.6rem;
+}
+
+.card-text a {
+	text-decoration: none;
+	color: #000;
+}
+/* Конец меню */
+
+/* Галерея блюд */
+.block_galery{
+	text-align: center;
+}
+.block_galery h2{
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	font-weight: 400;
+   font-size: 3.3rem;
+}
+.block_galery h2 span{
+	color: #D67E34;
+}
+/* Конец галереи блюд */
+
+/* Наши повара */
+.block_cooker{
+	text-align: center;
+}
+.block_cooker h2{
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	font-weight: 400;
+   font-size: 3.3rem;
+}
+.block_cooker h2 span{
+	color: #D67E34;
+}
+/* Конец Наших поваров */
+
+/* Наш адрес */
+.map{
+	padding: 3rem;
+	text-align: center;
+}
+.map h2{
+	color: #fff;
+	padding-bottom: 2rem;
+	font-weight: 400;
+   font-size: 3.3rem;
+}
+.metro{
+	width: 2rem;
+}
+.map h2 span{
+	color: #D67E34;
+}
+.info_block{
+	color: #fff;
+	font-size: 1.8rem;
+}
+.product_testi{
+	color: #fff;	
+	font-size: 1.8rem;
+}
+.info_block-text a{
+	color: #fff;
+	text-decoration: none;
+}
+.metro {
+	width: 1.8rem;
+}
+.product_props {
+	display: flex;
+	align-items: center;
+}
+.product_testi {
+	color: #fff;
+	font-size: 1.8rem;
+}
+/* Конец Нашего адреса  */
