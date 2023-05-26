@@ -1,0 +1,91 @@
+@media (max-width: 1200px) {
+	html {
+	  font-size:15px;
+	}
+}
+ @media (max-width: 992px) {
+	html {
+	  font-size:14px;
+	}
+}
+ @media (max-width: 768px) {
+	html {
+	  font-size:10px;
+	} 
+}
+@media (max-width: 399px) {
+	html {
+	  font-size:9px;
+	} 
+}
+@media (max-width: 375px) {
+	html {
+	  font-size:8px;
+	} 
+}
+/* Наша история */
+
+@media(max-width: 576px) {
+	.history-info{
+		padding-bottom: 1.5rem;
+	}
+}
+
+/* Конец нашей истории */
+@media(max-width: 900px) {
+	.cook-content {
+		padding-bottom: 180px;
+		justify-content: center;
+		display: grid;
+		gap: 75px;
+		grid-template-columns: repeat(1, 260px);
+		grid-template-rows: repeat(3, 290px);
+		grid-auto-rows: 380px;
+		grid-template-areas:
+			"eats1"
+			"eats2"
+			"eats3"
+		;
+
+	}
+}
+@media(max-width: 519px) {
+	.block_first h1{
+		padding-top: 2rem;
+	}
+	.block_first{
+		padding-bottom: 2rem;
+		text-align: center;
+		padding: 5rem;
+	}
+	.bttn{
+		padding-bottom: 5rem;
+	}
+}
+@media(max-width: 471px) {
+	.block_first{
+		padding-bottom: 2rem;
+		text-align: center;
+		padding: 1rem;
+	}
+}
+
+/* Адрес */
+@media (max-width: 512px) {
+	.info_block-text{
+		font-size: 1.3rem;
+	}
+}
+@media (max-width: 391px) {
+	.info_block-text{
+		font-size: 1.2rem;
+	}
+}
+/* Конец Адреса */
+
+
+/* Наше меню */
+@media(max-width: 474px) {
+	
+}
+/* Конец нашему меню */
