@@ -1,0 +1,25 @@
+header nav{
+	background-color: #000;
+}
+.nav-ittem_menu{
+	color: #fff;
+	text-decoration: none;
+	font-weight: 700;
+	transition: color 0.3s linear;
+}
+.nav-ittem_menu:hover {
+	color: #d81d1d;
+}
+.phone-holder {
+	display: flex;
+	align-items: center;
+}
+.phone-holder a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: 700;
+	transition: color 0.3s linear;
+}
+.phone-holder a:hover {
+	color: #d81d1d;
+}

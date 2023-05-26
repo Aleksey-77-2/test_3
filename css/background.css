@@ -1,0 +1,20 @@
+.block_first{
+	background-image: url(../img/1626430623_10-almode_ru-p-temnaya-stena-13.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/* Меню */
+.block_menu{
+	background-image: url(../img/menu.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/* Конец меню */
+
+/* Наш адрес */
+footer{
+	background-image: url(../img/bg_menu.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/* Конец нашего адреса */
