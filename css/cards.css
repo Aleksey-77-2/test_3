@@ -1,0 +1,55 @@
+
+.card {
+	text-align: center;
+}
+
+.card-text {
+	font-weight: 400;
+	font-size: 1.6rem;
+}
+
+.card-text a {
+	text-decoration: none;
+	color: #000;
+}
+
+.product {
+	width: 16.8rem;
+	/* height: 420px; */
+}
+
+.product-wrapper {
+	padding-bottom: 8rem;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 17.75rem);
+	gap: 30px 30px;
+	justify-content: center;
+
+}
+
+.card {
+	transition: 0.3s linear;
+}
+
+.card:hover {
+	background-color: orange;
+	transform: scale(1.2);
+	cursor: pointer;
+}
+.card {
+	text-align: center;
+}
+
+.product {
+	width: 16.8rem;
+	/* height: 420px; */
+}
+.card {
+	transition: 0.3s linear;
+}
+
+.card:hover {
+	background-color: orange;
+	transform: scale(1.1);
+	cursor: pointer;
+}
