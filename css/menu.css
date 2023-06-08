@@ -1,0 +1,50 @@
+html{
+	font-size: 16px;
+}
+body{
+	background-color:bisque;
+}
+.header_salad{
+	background-color: #000;
+}
+.nav-ittem_menu{
+	color: #fff;
+	text-decoration: none;
+	font-weight: 700;
+	transition: color 0.3s linear;
+}
+.block_menu_salad h2{
+	color:#000;
+}
+.menu-title_salad{
+	color: #fff;
+	text-align: center;
+	padding-top: 100px;
+	margin-bottom: 100px;
+	font-family: 'Tinos', serif;
+	font-weight: 400;
+	font-size: 54px;
+}
+.card:hover{
+	background:none;
+	transform: none;
+}
+.card-text_salad{
+	font-weight: 400;
+	font-size: 20px;
+}
+.card-text_salad a{
+	text-decoration: none;
+	color: #000;
+}
+.card-img-top{
+	width: 100%;
+	height: 200px;
+}
+.card{
+	border: none;
+	background:none;
+}
+.card-img-top{
+	border-radius: 0;
+}
